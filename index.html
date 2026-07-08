@@ -1,12 +1,8 @@
-
 <section class="toolbox-section">
   <div class="toolbox-container">
-    <h2>My Toolbox</h2>
-    <p class="toolbox-subtitle">
-      A combination of strategy, systems thinking, creativity, and leadership skills 
-      used to build communities, execute projects, and create meaningful experiences.
-    </p>
+
     <div class="toolbox-grid">
+
       <div class="toolbox-card">
         <h3>Strategy</h3>
         <ul>
@@ -18,6 +14,7 @@
           <li>Data Analysis</li>
         </ul>
       </div>
+
       <div class="toolbox-card">
         <h3>Operations</h3>
         <ul>
@@ -29,6 +26,7 @@
           <li>Workflow Systems</li>
         </ul>
       </div>
+
       <div class="toolbox-card">
         <h3>Creative</h3>
         <ul>
@@ -40,6 +38,7 @@
           <li>Visual Design</li>
         </ul>
       </div>
+
       <div class="toolbox-card">
         <h3>Growth</h3>
         <ul>
@@ -51,6 +50,7 @@
           <li>Growth Systems</li>
         </ul>
       </div>
+
       <div class="toolbox-card">
         <h3>Leadership</h3>
         <ul>
@@ -62,78 +62,94 @@
           <li>Decision Making</li>
         </ul>
       </div>
+
     </div>
+
   </div>
 </section>
+
+
 <style>
+
 .toolbox-section {
   padding: 80px 20px;
-  background: #ffffff;
+  background: #050505;
 }
+
 .toolbox-container {
   max-width: 1200px;
   margin: auto;
-  text-align: center;
 }
-.toolbox-container h2 {
-  font-size: 42px;
-  margin-bottom: 15px;
-}
-.toolbox-subtitle {
-  max-width: 700px;
-  margin: 0 auto 50px;
-  font-size: 18px;
-  color: #666;
-  line-height: 1.6;
-}
+
+
 .toolbox-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
 }
+
+
 .toolbox-card {
-  background: #f8f8f8;
+  background: #111111;
   padding: 30px 20px;
   border-radius: 18px;
+  border: 1px solid #262626;
   text-align: left;
-  transition: transform .3s ease, box-shadow .3s ease;
+  transition: all .3s ease;
 }
+
+
 .toolbox-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+  border-color: #555;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.5);
 }
+
+
 .toolbox-card h3 {
+  color: #ffffff;
   font-size: 22px;
   margin-bottom: 20px;
 }
+
+
 .toolbox-card ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
+
+
 .toolbox-card li {
   padding: 8px 0;
   font-size: 15px;
-  color: #555;
-  border-bottom: 1px solid #ddd;
+  color: #b3b3b3;
+  border-bottom: 1px solid #222;
 }
+
+
 .toolbox-card li:last-child {
   border-bottom: none;
 }
+
+
 /* Tablet */
-@media(max-width: 1000px){
+@media(max-width:1000px){
+
 .toolbox-grid {
   grid-template-columns: repeat(2,1fr);
 }
+
 }
+
+
 /* Mobile */
 @media(max-width:700px){
+
 .toolbox-grid {
   grid-template-columns:1fr;
 }
-.toolbox-container h2 {
-  font-size:32px;
-}
-}
-</style>
 
+}
+
+</style>
